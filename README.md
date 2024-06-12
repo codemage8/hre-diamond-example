@@ -1,13 +1,13 @@
-# TandaPay contracts
+# Example Diamond Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates how to create complicated, infinite sized smart contract using [EIP-2535 Diamond Standard](https://github.com/ethereum/EIPs/issues/2535)
 
-Try running some of the following tasks:
+## Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+- Diamond 2 Implementation
+- TypeScript
+- Hardhat Ignition
+- Prettier
+- ESLint
+- Solhint
+- Github CI Workflow
